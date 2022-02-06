@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <header>
+        <h1>Запись на курсы программирования</h1>
+        <hr>
+    </header>
+    <main>
+        <form>
+            <label for="name">Имя:</label><br>
+            <input type="text" name="name" id="name" placeholder="Сергей"><br>
+            <br>
+
+            <input type="radio" name="lang" id="java" checked>
+            <label for="java">Java</label>
+            <input type="radio" name="lang" id="c++">
+            <label for="c++">C++</label>
+            <input type="radio" name="lang" id="python">
+            <label for="python">Python</label>
+            <input type="radio" name="lang" id="php">
+            <label for="php">PHP</label>
+            <input type="radio" name="lang" id="js">
+            <label for="js">JavaScript</label><br>
+            <br>
+
+            <label for="info">Дополнительная информация:</label><br>
+            <textarea name="info" id="info" cols="25" rows="5" placeholder="Есть опыт программирования на Java"></textarea><br>
+            <br>
+            <label for="secret_word">Секретное слово:</label><br>
+            <input type="password" name="secret_word" id="secret_word" value="secret"><br>
+            <br>
+
+            <input type="checkbox" name="rules" id="rules">
+            <label for="rules">С правилами ознакомился и согласен</label><br>
+            <br>
+            <button type="button" style="margin-right: 5px;">Отправить</button><button type="reset">Отчистить</button>
+        </form>
+    </main>
+    <footer>
+        <hr>
+        <p>Made by Sergey</p>
+    </footer>
+</body>
+</html>
